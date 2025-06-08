@@ -34,6 +34,7 @@
           "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone for audio recording."
         }
       ]
-    ]
+    ],
+    "scheme": "str-expo"
   }
 }
