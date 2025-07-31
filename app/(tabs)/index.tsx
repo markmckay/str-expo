@@ -91,7 +91,7 @@ export default function LibraryScreen() {
     }
     
     if (hasHalfStar) {
-      stars.push(<Star key="half\" size={12} color="#FFD700" fill="#FFD700" style={{ opacity: 0.5 }} />);
+      stars.push(<Star key="half" size={12} color="#FFD700" fill="#FFD700" style={{ opacity: 0.5 }} />);
     }
     
     const remainingStars = 5 - Math.ceil(rating);
